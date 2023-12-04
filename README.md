@@ -7,10 +7,12 @@ Trabalho realizado para a matéria de Web-Servidor com o intuito de apresentar o
 
 Documentação:
 Utilizamos o Xampp para inicializarmos o MySQL, desta forma, o Apache e o MySQL precisam estar ativos;
-Para criação do banco de dados precisa colocar no CMD o comando "composer install" para a criação do autoload e o "php artisan migrate" estando na pasta da API;
-e após isso, precisa-se utilizar o comando "php artisan serve" no cmd para ligar o servidor.
+Precisamos utilizar alguns comandos no CMD para 'ligar' a API;
+Começando com o "composer install" ao qual vai instalar os pacotes necessários do laravel;
+depois utilizaremos o "php artisan migrate" que vai servir para a construçao do banco de dados utilizando as migrations;
+e por fim, o "php artisan serve" serve para 'ligar' o servidor da API.
 
-Para o teste da API utilizamos o client http Insomnia;
+Para o teste da API utilizamos o Insomnia;
 Será necessário importar o arquivo lilcoxas-insomniaimport.json para execução dos testes;
 Devido a autenticação necessária para as rotas somente os testes de registro e login foram automatizados;
 Para as demais rotas, faz-se necessário utilizar um token já criado via registro ou login.
