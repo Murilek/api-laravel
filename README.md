@@ -1,4 +1,4 @@
-[h1]Alunos[/h1]
+Alunos
 Murilo Matheus Ruiz
 Carlos Eduardo da Silva
 
