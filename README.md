@@ -1,11 +1,11 @@
-# Alunos:
+## Alunos:
 Murilo Matheus Ruiz
 Carlos Eduardo da Silva
 
-Descrição:
+## Descrição:
 Trabalho realizado para a matéria de Web-Servidor com o intuito de apresentar o terceiro projeto para avaliação. O projeto trata-se de uma api que realiza consultas, inserções, atualizações e deleções no banco de dados do sistema da pizzaria dos outros projetos.
 
-Documentação:
+## Documentação:
 Utilizamos o Xampp para inicializarmos o MySQL, desta forma, o Apache e o MySQL precisam estar ativos;
 Coloque a pasta no 'htdocs' do XAMPP e navegue pelo CMD até a pasta da API (no htdocs);
 Copie o '.env.example' e crie um '.env' com as informações do seu banco de dados (coloque o seu DB_USERNAME e o DB_PASSWORD);
@@ -20,20 +20,20 @@ Será necessário importar o arquivo lilcoxas-insomniaimport.json para execuçã
 Devido a autenticação necessária para as rotas somente os testes de registro e login foram automatizados;
 Para as demais rotas, faz-se necessário utilizar um token já criado via registro ou login.
 
-Features:
+## Features:
 Criação do banco de dados;
 CRUD;
 Rotas estruturadas;
 Autenticação;
 
-Atividades:
-Murilo
+## Atividades:
+### *Murilo Matheus Ruiz*
 Criação da rota e controller de Flavor e Size;
 Padronização de mensagens de retorno para todos os métodos dos controllers;
 Tratamento de erros de todos os métodos dos controllers.
 Autenticação API Token via Sanctum;
 
-Carlos
+### *Carlos Eduardo da Silva*
 Criação das Migrations;
 Criação dos Models;
 Criação da rota e controller de Dough e Sauce;
