@@ -7,10 +7,13 @@ Trabalho realizado para a matéria de Web-Servidor com o intuito de apresentar o
 
 Documentação:
 Utilizamos o Xampp para inicializarmos o MySQL, desta forma, o Apache e o MySQL precisam estar ativos;
+Coloque a pasta no 'htdocs' do XAMPP e navegue pelo CMD até a pasta da API (no htdocs);
+Copie o '.env.example' e crie um '.env' com as informações do seu banco de dados (coloque o seu DB_USERNAME e o DB_PASSWORD);
+
 Precisamos utilizar alguns comandos no CMD para 'ligar' a API;
 Começando com o "composer install" ao qual vai instalar os pacotes necessários do laravel;
 depois utilizaremos o "php artisan migrate" que vai servir para a construçao do banco de dados utilizando as migrations;
-e por fim, o "php artisan serve" serve para 'ligar' o servidor da API.
+e por fim, coloque o comando "php artisan serve" serve para 'ligar' o servidor da API.
 
 Para o teste da API utilizamos o Insomnia;
 Será necessário importar o arquivo lilcoxas-insomniaimport.json para execução dos testes;
