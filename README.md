@@ -1,6 +1,6 @@
 ## Alunos:
-Murilo Matheus Ruiz
-Carlos Eduardo da Silva
+### Murilo Matheus Ruiz
+### Carlos Eduardo da Silva
 
 ## Descrição:
 Trabalho realizado para a matéria de Web-Servidor com o intuito de apresentar o terceiro projeto para avaliação. O projeto trata-se de uma api que realiza consultas, inserções, atualizações e deleções no banco de dados do sistema da pizzaria dos outros projetos.
